@@ -1,14 +1,12 @@
 #use an existing docker images
-From alpine
-
-
+FROM alpine
 
 # download and install dependency
-RUn apk add --update httpd
+RUN apk add --update redis
 
 
 #tell te image what to do 
 
 
 #as a a container
-cmd ["httpd"]
+CMD ["redis-server"]
