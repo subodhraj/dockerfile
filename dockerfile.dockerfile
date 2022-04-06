@@ -1,5 +1,5 @@
 #use an existing docker images
-From alpine
+From alpine:3.15.4
 
 
 
