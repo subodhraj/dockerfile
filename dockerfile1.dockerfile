@@ -1,5 +1,5 @@
 #use an existing docker images
-FROM alpine
+FROM alpine:3.18.3
 
 # download and install dependency
 RUN apk add --update redis
